@@ -17,10 +17,6 @@ export default function DataTable({ tableName }: DataTableProps) {
       setLoading(true)
       setError(null)
       
-      if (!supabase) {
-        throw new Error('Supabase client not configured. Please check your environment variables.')
-      }
-      
       const { data: tableData, error: fetchError } = await supabase
         .from(tableName)
         .select('*')

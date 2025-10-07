@@ -13,7 +13,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-6">
             <div>
-              <h1 className="text-3xl font-bold text-gray-900">Supabase Data Viewer</h1>
+              <h1 className="text-3xl font-bold text-gray-900">PandaEat!</h1>
               <p className="mt-1 text-sm text-gray-500">
                 View and manage data from your Supabase database tables
               </p>
@@ -65,20 +65,6 @@ export default function Home() {
         {/* Data Table */}
         <DataTable tableName={tableName} />
 
-        {/* Instructions */}
-        <div className="mt-8 bg-blue-50 border border-blue-200 rounded-lg p-6">
-          <h3 className="text-lg font-medium text-blue-900 mb-2">Setup Instructions</h3>
-          <div className="text-sm text-blue-800 space-y-2">
-            <p>1. Create a <code className="bg-blue-100 px-1 py-0.5 rounded">.env.local</code> file in your project root</p>
-            <p>2. Add your Supabase credentials:</p>
-            <pre className="bg-blue-100 p-3 rounded mt-2 text-xs overflow-x-auto">
-{`NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key`}
-            </pre>
-            <p>3. The application is configured to query the &quot;users&quot; table by default</p>
-            <p>4. Make sure your Supabase table has data and proper column structure</p>
-          </div>
-        </div>
       </main>
 
       {/* Footer */}
