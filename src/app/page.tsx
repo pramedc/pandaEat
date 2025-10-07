@@ -21,7 +21,7 @@ export default function Home() {
                   PandaEat!
                 </h1>
                 <p className="mt-2 text-sm text-gray-600 font-medium">
-                  📊 Your Supabase data at your fingertips
+                  📊 Your database data at your fingertips
                 </p>
               </div>
             </div>
@@ -72,7 +72,7 @@ export default function Home() {
                 className="w-full max-w-lg border-2 border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-4 focus:ring-blue-100 focus:border-blue-400 transition-all duration-200"
               />
               <p className="mt-3 text-sm text-gray-500">
-                💡 Enter the exact name of your Supabase table
+                💡 Enter the exact name of your database table
               </p>
             </div>
           </div>
@@ -113,7 +113,7 @@ export default function Home() {
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                <span>Supabase</span>
+                <span>Database</span>
               </div>
             </div>
             <p className="text-xs text-gray-400">

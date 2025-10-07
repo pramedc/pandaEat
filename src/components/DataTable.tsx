@@ -53,7 +53,7 @@ export default function DataTable({ tableName }: DataTableProps) {
           </div>
           <div className="text-center">
             <p className="text-lg font-semibold text-gray-800">Loading your data...</p>
-            <p className="text-sm text-gray-500 mt-1">Fetching from Supabase database</p>
+            <p className="text-sm text-gray-500 mt-1">Fetching from database</p>
           </div>
         </div>
       </div>
@@ -100,7 +100,7 @@ export default function DataTable({ tableName }: DataTableProps) {
           </div>
           <h3 className="text-2xl font-bold text-gray-800 mb-3">No Data Found</h3>
           <p className="text-gray-600 mb-6 max-w-md mx-auto">
-            The table &quot;{tableName}&quot; is empty or doesn&apos;t exist in your Supabase database.
+            The table &quot;{tableName}&quot; is empty or doesn&apos;t exist in your database.
           </p>
           <button
             onClick={handleRefresh}
@@ -132,7 +132,7 @@ export default function DataTable({ tableName }: DataTableProps) {
                 {tableName} Table
               </h2>
               <p className="text-sm text-gray-600">
-                Live data from your Supabase database
+                Live data from your database
               </p>
             </div>
           </div>
