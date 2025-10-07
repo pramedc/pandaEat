@@ -11,5 +11,5 @@ export const supabase = supabaseUrl && supabaseAnonKey
 
 // Flexible data type for any table structure
 export interface DataRow {
-  [key: string]: any
+  [key: string]: string | number | boolean | Date | null | undefined
 }
